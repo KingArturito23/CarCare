@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>CarCare</title>
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+      <!-- Barra menu -->    
+      <section id="menu">
+        <div class="container">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              </div>
+              <div class="collapse navbar-collapse js-navbar-collapse" id="mainmenu">
+                <ul class="nav navbar-nav">
+                  <li class="active"> <a href="index.html">Inicio</a></li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos</a>
+                    <ul class="dropdown-menu normal" role="menu">
+                      <li><a href="CarCare-Basico.html">CarCare Básico</a></li>
+                      <li><a href="CarCare-Profesional.html">CarCare Profesional</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./Descargas.html">Descargas</a></li>
+                  <li class="dropdown"><a href="#servicio">Servicios</a></li>
+                  <li class="dropdown"><a href="./Soporte.html">Soporte</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <!-- Barra menu -->  
+
+      <!-- Banner Start -->
+      <section id="imageslider">
+        <div id="homepage-slider" class="carousel slide" data-interval="5000">
+          <ol class="carousel-indicators">
+            <li data-target="#homepage-slider" data-slide-to="0" class=""></li>
+            <li data-target="#homepage-slider" data-slide-to="1" class="active"></li>
+            <li data-target="#homepage-slider" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item slide1 active">
+              <div class="row">
+                <div class="container">
+                  <div class="col-md-7 text-left">
+                    <h3 data-animation="animated bounceInDown" class="">CarCare</h3>
+                    <h4 data-animation="animated bounceInUp" class="">Nueva Versión</h4>
+                    <h4 data-animation="animated bounceInUp" class="second"> 3 meses GRATIS en los planes anuales</h4>
+                    <h4 data-animation="animated bounceInUp" class="third"> Adaptable a cualquier taller</h4>
+                    <h4 data-animation="animated bounceInUp" class="forth"> </h4>
+                    <a data-animation="animated bounceInUp" href="#plan" type="button" class="btn btn-slider btn-lg animated bounceInUp"> Elige tu plan hoy</a> </div>
+                  <div class="col-md-5 text-right mdhide"> <img data-animation="animated zoomInLeft" class="img-responsive sliderimage-bottom" src="images/taller1.jpg"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item slide2">
+              <div class="row">
+                <div class="container">
+                  <div class="col-md-7 text-left">
+                    <h3 data-animation="animated bounceInDown" class="">CarCare te ofrece mucho más</h3>
+                    <h4 data-animation="animated bounceInUp" class=""> Un solo programa en tu taller</h4>
+                    <h4 data-animation="animated bounceInUp" class="second"> Facil de usar</h4>
+                    <h4 data-animation="animated bounceInUp" class="third"> Editor de reportes</h4>
+                    <h4 data-animation="animated bounceInUp" class="forth"> Envío de documentos por email</h4>
+                    <a data-animation="animated bounceInUp" href="#plan" type="button" class="btn btn-slider btn-lg animated bounceInUp"> Elige tu plan hoy</a> </div>
+                  <div class="col-md-5 text-right mdhide"> <img data-animation="animated zoomInLeft" class="img-responsive sliderimage-bottom" src="images/taller2.jpg"> </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item slide3">
+              <div class="row">
+                <div class="container">
+                  <div class="col-md-7 text-left">
+                    <h3 data-animation="animated bounceInDown" class="">Adaptable a cualquier tipo de taller</h3>
+                    <h4 data-animation="animated bounceInUp" class="second"> Manejo de inventarios de tu taller</h4>
+                    <h4 data-animation="animated bounceInUp" class="third"> Manejo de citas</h4>
+                    <h4 data-animation="animated bounceInUp" class="forth"> Manejo de clientes</h4>
+                    <a data-animation="animated bounceInUp" href="#plan" type="button" class="btn btn-slider btn-lg"> Pruébalo GRATIS por 30 días</a> </div>
+                  <div class="col-md-5 text-right mdhide"> <img data-animation="animated zoomInLeft" class="img-responsive sliderimage-bottom" src="images/taller3.jpg"> </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Banner -->
+
+      <!-- Contenedor de servicios  -->
+      <section class="contenedor" id="servicio">
+        <h2 class="subtitulo">Nuestros Servicios</h2>
+        <div class="contenedor-servicio">
+          <div class="checklist-servicio">
+            <div class="service">
+              <h3 class="n-service"><span class="number">1</span>AGENDAMIENTO Y PAGO ONLINE</h3>
+              <p>Queremos facilitarte el proceso de principio a fin. Nuestros mecánicos resolverán tu problema donde lo necesites. Ingresa a nuestro sitio web o a la app, donde podrás agendar tu visita, revisar las mantenciones o servicios para tu auto, cotizar,
+                pagar y acceder a un completo historial con el detalle de lo realizado, 
+                la fecha y montos pagados. No te preocupes si no sabes lo que necesitas, 
+                te guiaremos paso a paso!</p>
+                
+                <h3 class="n-service"><span class="number">2</span>SERVICIO A DOMICILIO Y GARANTIZADO</h3>
+              <p>Evita perder tu tiempo llevando el auto al taller o esperando eternamente que te lo devuelvan. El día de tu reserva, nuestros mecánicos llegarán con todo lo necesario para realizar el servicio que pediste,
+                sólo debes preocuparte de facilitarles un estacionamiento o espacio para poder trabajar, que no tenga pendiente.</p>
+                
+                <h3 class="n-service"><span class="number">3</span>REPORTE COMPLETO CON CADA SERVICIO</h3>
+              <p>Luego de cada trabajo que realicemos a tu auto, te entregaremos un informe con el detalle de lo realizado. Además, en todos nuestros servicios, incluimos de manera gratuita un informe de salud del automóvil revisado, con 50 puntos de chequeo y comentarios personalizados. 
+                Esto te guiará en los próximos servicios que debas realizar para que tu vehículo se mantenga en perfectas condiciones.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contenedor de servicios  -->
+
+      <!-- Capturas de Pantallas  -->
+      <section class="gallery" id="portafolio">
+        <div class="contenedor">
+          <h2 class="subtitulo">Capturas de Pantallas - Screenshot</h2>
+          <div class="contenedor-galeria">
+            <img src="images/App/App1.png" alt="" class="img-galeria">
+            <img src="images/App/App2.png" alt="" class="img-galeria">
+            <img src="images/App/App3.png" alt="" class="img-galeria">
+            <img src="images/App/App4.png" alt="" class="img-galeria">
+            <img src="images/App/App5.png" alt="" class="img-galeria">
+            <img src="images/App/App6.png" alt="" class="img-galeria">
+          </div>
+        </div>
+      </section>
+      <!-- Capturas de Pantallas  -->
+
+      <!-- Servicios Start -->
+      <section id="hostingfeatures">
+        <div class="container">
+          <h1 class="sectiontitle">
+            CarCare 
+            <span>Puede ser Usado en Cualquier Tipo de Taller</span>
+          </h1>
+          <p class="intro">
+            Clientes satisfechos en todo Chile, ratifican la total capacidad de adaptarse a sus requerimientos específicos y de generar los resultados que usted siempre ha deseado.
+          </p>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInDown" style="visibility: visible;">
+              <div class="thumbnail"> 
+                <div class="caption">
+                  <h3>Mantención por Kilometraje</h3>
+                  <p>Taller de servicio y mantenimiento periódico de vehículos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">
+              <div class="thumbnail"> 
+                <div class="caption">
+                  <h3>Agenda</h3>
+                  <p>Reserva tu atención, del resto nos encargamos nosotros.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">
+              <div class="thumbnail"> 
+                <div class="caption">
+                  <h3>Scanner y diagnóstico</h3>
+                  <p>Cotiza con nosotros el Scanner y diagnóstico para tu vehículo, y en menos de 24 horas te enviaremos un presupuesto.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3>Cambio de Aceite</h3>
+                  <p>
+                    Realizar el cambio de aceite es esencial para un buen funcionamiento del motor, ya que permite tener bien lubricadas todas las piezas del motor lo que reduce su desgaste.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Servicios End -->
+
+      <!-- Paquetes Start -->
+      <section id="reasons">
+        <div class="container">
+          <h1 class="sectiontitle">¿Porque elegir a CarCare?<br><span>¿Qué lo hace mejor que otros programas?</span></h1>
+          <h2 class="sectionintro white">Esta son solo algunas de las razones por la que CarCare está reconocido como el mejor programa para la gestión de talleres automotrices.</h2>
+          <div class="row">
+            <div class="jcarousel-wrapper">
+              <div class="jcarousel" data-jcarousel="true" data-jcarouselautoscroll="true">
+                <ul class="toolslide" style="left: 0px; top: 0px;">
+                  <li class="wow zoomInDown animated" style="width: 100px; visibility: visible; animation-name: zoomInDown;">
+                    <div class="thumbnail"> <!-- <i class="fa fa-globe-americas fa-5x" aria-hidden="true"></i> -->
+                      <div class="caption">
+                        <h3>Adaptable</h3>
+                        <p>Puede adaptarse a cualquier taller de Chile.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="wow zoomInDown animated" style="width: 100px; visibility: visible; animation-name: zoomInDown;">
+                    <div class="thumbnail"> <!-- <i class="fa fa-users-cog fa-5x" aria-hidden="true"></i> -->
+                      <div class="caption">
+                        <h3>Equipo</h3>
+                        <p>Puedes estar seguro de que el equipo de CarCare ha pensado en todo.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="wow zoomInDown animated" style="width: 100px; visibility: visible; animation-name: zoomInDown;">
+                    <div class="thumbnail"> <!-- <i class="fa fa-headset fa-5x" aria-hidden="true"></i> -->
+                      <div class="caption">
+                        <h3>Soporte</h3>
+                        <p>Soporte gratis por email de respuesta rápida, consultoría personalizada para resolución de problemas.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="wow zoomInDown animated" style="width: 100px; visibility: visible; animation-name: zoomInDown;">
+                    <div class="thumbnail"><!--  <i class="fas fa-dollar-sign fa-5x" aria-hidden="true"></i> -->
+                      <div class="caption">
+                        <h3>Precio</h3>
+                        <p>Tenemos el mejor precio valor del mercado además contamos con dos ediciones para distintos tamaños de negocios.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="wow zoomInDown animated" style="width: 100px; visibility: visible; animation-name: zoomInDown;">
+                    <div class="thumbnail"><!--  <i class="fas fa-graduation-cap fa-5x" aria-hidden="true"></i> -->
+                      <div class="caption">
+                        <h3>Interfaz</h3>
+                        <p>Fácil de usar de forma intuitiva, menús despegables con más opciones, accesos rápido con juego de teclas.</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <p class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1" class="">1</a><a href="#2" class="active">2</a><a href="#3">3</a><a href="#4">4</a><a href="#5">5</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Paquetes End -->
+
+      <!-- Planes Start -->
+      <section id="resellerplans">
+        <div class="container">
+          <h1 class="sectiontitle"><a id="plan"></a>Invierte en tu propio taller<br><span>CarCare</span></h1>
+          <h2 class="sectionintro white">Selecciona el plan que más se adapta a tus necesidades, haz que tu taller crezca!<br>
+          <br>
+          <div class="pricing">
+                <!-- Plan Basic -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow zoomInLeft">
+                  <div class="pricing-table">
+                    <div class="pricing-header">
+                      <p class="pricing-title">Plan Basic</p>
+                      <!--<p class="pricing-rate old-price"><sup>$35.000</sup></p>-->
+                      <p class="pricing-rate"><sup>$</sup>9<sup class="pence">.000</sup></p>
+                      <p class="pricing-term">mil pesos al mes</p>
+                      <a class="btn btn-custom">SUSCRIBETE</a></div>
+                    <div class="pricing-list">
+                      <ul>
+                        <li>Licencia para <span>1 Usuario</span></li>
+                        <li><span>30 Días</span> Gratis</li>
+                        <li><span>Actualizaciones Sin Costo</span></li>
+                        <li>Activaciones <span>Gratis</span></li>
+                        <li><span>Soporte</span> Técnico</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Plan Esencial -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow zoomInLeft">
+                  <div class="pricing-table">
+                    <div class="pricing-header">
+                      <p class="pricing-title">Plan Esencial</p>
+                      <!--<p class="pricing-rate old-price"><sup>US$49.99</sup></p>-->
+                      <p class="pricing-rate"><sup>$</sup>25<sup class="pence">.000</sup></p>
+                      <p class="pricing-term">mil pesos al mes</p>
+                      <a class="btn btn-custom">SUSCRIBETE</a> </div>
+                    <div class="pricing-list">
+                      <ul>
+                        <li>Licencia para <span>3 Usuarios</span></li>
+                        <li><span>2 Horas</span> de Consultoría</li>
+                        <li><span>Actualizaciones Sin Costo</span></li>
+                        <li>Activaciones <span>Gratis</span></li>
+                        <li><span>Soporte</span> Técnico</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Plan Plus -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow zoomInLeft">
+                  <div class="pricing-table">
+                    <div class="pricing-header">
+                      <p class="pricing-title">Plan Plus</p>
+                      <!--<p class="pricing-rate old-price"><sup>US$69.99</sup></p>-->
+                      <p class="pricing-rate"><sup>$</sup>30<sup class="pence">.000</sup></p>
+                      <p class="pricing-term">mil pesos al mes</p>
+                      <a class="btn btn-custom">SUSCRIBETE</a> </div>
+                    <div class="pricing-list">
+                      <ul>
+                        <li>Licencia para <span>5 Usuarios</span></li>
+                        <li><span>4 Horas</span> de Consultoría</li>
+                        <li><span>Actualizaciones Sin Costo</span></li>
+                        <li>Activaciones <span>Gratis</span></li>
+                        <li><span>Soporte</span> Técnico</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Plan Ultimate -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow zoomInLeft">
+                  <div class="pricing-table">
+                    <div class="pricing-header">
+                      <p class="pricing-title">Plan Ultimate</p>
+                      <!--<p class="pricing-rate old-price"><sup>US$69.99</sup></p>-->
+                      <p class="pricing-rate"><sup>$</sup>45<sup class="pence">.000</sup></p>
+                      <p class="pricing-term">mil pesos al mes</p>
+                      <a class="btn btn-custom">SUSCRIBETE</a> </div>
+                    <div class="pricing-list">
+                      <ul>
+                        <li>Licencia para <span>10 Usuarios</span></li>
+                        <li><span>8 Horas</span> de Consultoría</li>
+                        <li><span>Actualizaciones Sin Costo</span></li>
+                        <li>Activaciones <span>Gratis</span></li>
+                        <li><span>Soporte</span> Técnico</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>        
+          </div>
+        </div>
+      </section>
+      <!-- Planes End -->
+        
+      <!-- Footer Soporte Start -->
+      <footer id="soporte">
+        <div class="contenedor footer-content">
+          <div class="contact-us">
+            <h2 class="brand">CarCare</h2>
+            <p>Mecánicos profesionales en la puerta de tu hogar. 
+              Vamos donde nos necesites, olvídate de ir al taller mecánico!</p>
+              <h6>© 2022 TODOS LOS DERECHOS RESERVADOS.</h6>
+          </div>
+          <div class="social-media">
+            <a href="https://www.facebook.com/" class="social-media-icon">
+              <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://twitter.com/" class="social-media-icon">
+              <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-media-icon">
+              <i class='bx bxl-instagram'></i>
+            </a>
+          </div>
+          <H4>+56937096367</H4>
+        </div>
+        <div class="line"></div>
+      </footer>
+      <!-- Footer Soporte End -->
+
+      <script type="text/javascript" src="js/scripts.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript" src="js/menu.js"></script>
+      <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+  </body>
+</html>
