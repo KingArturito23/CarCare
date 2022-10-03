@@ -1333,26 +1333,27 @@ footer{
     background-color: #c3cfe2;
     margin: auto;
     width: 90%;
-    max-width: 600px;
+    max-width: 400px;
     padding: 4.5em 3em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgba(0 0 0 / 30%);
     text-align: center;
 }
 
-.soporte__tittle{
+.soporte__title{
     font-size: 5rem;
 	color:#fff;
+	margin-bottom: .5em;
 }
 
 .soporte__paragraph{
-    font-size: 1em;
-	margin-bottom: 5rem;
-	color:#fff;
+	color:#fff; 
+	font-weight: 300;
+	font-size: 19px;
 }
 
 .soporte__container{
-    margin-top: 1em;
+    margin-top: 3em;
     display: grid;
     gap: 2.5em;
 }
@@ -1366,7 +1367,7 @@ footer{
     width: 100%;
     background: none;
     color: #373B42;
-    font-size: 1rem;
+    font-size: 20px;
     padding: .6em .3em;
     border: none;
     outline: none;
@@ -1374,13 +1375,9 @@ footer{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.soporte__input:not(:placeholder-shown){
-    color: #373B42;
-}
-
 .soporte__input:focus + .soporte__label,
 .soporte__input:not(:placeholder-shown) + .soporte__label{
-    transform: translateY(-12px) scale(.7);
+    transform: translateY(12px) scale(.7);
     transform-origin: left top;
     color: #373B42;
 }
@@ -1389,10 +1386,11 @@ footer{
     color: var(--color);
     cursor: pointer;
     position: absolute;
+	font-size: 18px;
     top: 0;
     left: 5px;
     transform: translateY(10px);
-    transition: transform .5s, color 3.s;
+    transition: transform .500s, color 300.s;
 }
 
 .soporte__submit{
@@ -1400,8 +1398,8 @@ footer{
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    font-size: 1rem;
-    padding: .8em 0;
+    font-size: 15px;
+    padding: 15px;
     border: none;
     border-radius: 5.em;
 }
@@ -1418,7 +1416,13 @@ footer{
     transition: transform .4s;
 }
 
-.soporte__input:focus + .soporte__label,
-.soporte__input:not(:placeholder-shown) + .soporte__label{
+.soporte__input:focus ~ .soporte__label,
+.soporte__input:not(:placeholder-shown) ~ .soporte__label{
     transform: scale(1);
+}
+
+@media (max-width:425px) {
+    .form__title{
+       font-size: 1.8rem; 
+    }
 }
